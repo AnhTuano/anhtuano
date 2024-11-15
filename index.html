@@ -34,7 +34,8 @@
             color: #333;
             border-radius: 20px;
             padding: 30px;
-            width: 350px;
+            width: 90%; /* Đảm bảo responsive */
+            max-width: 350px; /* Giới hạn kích thước */
             text-align: center;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             position: relative;
@@ -97,6 +98,7 @@
         }
 
         .profile-card p {
+            margin-top: 6px;
             font-size: 16px;
             margin-bottom: 20px;
             color: #555;
@@ -289,14 +291,14 @@
             <img src="./logo/Twitter_Verified_Badge.svg.png" alt="Verified" class="verified-badge">
         </h2>
 
-        <p>Được viết bởi Nguyễn Anh Tuấn</p>
+        <p>Luôn tìm kiếm thử thách mới trong lập trình!</p>
         
         <!-- Các nút hình tròn Gmail và Phone -->
         <div class="contact-icons">
             <a href="mailto:tuanvik206@gmail.com" title="Gmail">
                 <i class="fas fa-envelope"></i>
             </a>
-            <a href="tel:+84969096731" title="Phone">
+            <a href="tel:0969096731" title="Phone">
                 <i class="fas fa-phone-alt"></i>
             </a>
         </div>
